@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 
 const allowedOrigins = process.env.NODE_ENV === 'production'
-  ? 'https://krushant-rsvp-frontend.onrender.com'
+  ? 'https://krushant-rsvp-frontend.azurewebsites.net'
   : 'http://localhost:3000';
 
 app.use(cors({
